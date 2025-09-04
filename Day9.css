@@ -1,4 +1,57 @@
-p{
-    background-color: green;
-    display: inline-block;
+.container{
+    border: 6px solid black;
+    border-radius: 2px;
+    animation-name: a;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in
+   
+}
+body{
+    display: flex;
+    gap: 15px;
+    justify-content: center; 
+    align-items: center; 
+     /* border: 2px solid; */
+    height: 500px; 
+}
+@keyframes a{
+    
+    0%   {
+         transform: scaleY(1);
+         }
+    70%  {
+         transform: scaleY(20);
+         }  
+    100% { 
+        transform: scaleY(1); 
+    }  
+}
+
+.child1{
+    animation-duration: 3s;
+}
+.child2{
+     animation-duration: 2s;
+}
+.child3{
+     animation-duration: 2.5s;
+}
+.child4{
+     animation-duration: 3.5s;
+}
+.child5{
+    animation-duration: 2s;
+}
+.child6{
+     animation-duration: 3s;
+}
+.child7{
+     animation-duration: 2.5s;
+}
+.child8{
+     animation-duration: 3.5s;
+}
+.child9{
+    animation-duration: 2.7s;
 }
